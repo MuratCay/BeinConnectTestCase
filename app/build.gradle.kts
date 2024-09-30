@@ -9,7 +9,7 @@ plugins {
 
 android {
     namespace = "com.muratcay.beinconnecttestcase"
-    compileSdk = 34
+    compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
         applicationId = "com.muratcay.beinconnecttestcase"

@@ -64,3 +64,4 @@ android-safeArgs = { id = "androidx.navigation.safeargs", version.ref = "safeArg
 dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "hiltPlugin" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
 serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
