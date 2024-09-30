@@ -23,3 +23,4 @@ rootProject.name = "BeinConnectTestCase"
 include(":app")
 include(":remote")
 include(":presentation")
+include(":domain")
