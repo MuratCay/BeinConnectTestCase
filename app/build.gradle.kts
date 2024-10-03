@@ -54,6 +54,11 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+    implementation(project(":data"))
+    implementation(project(":domain"))
+
+    implementation(libs.timber)
+
     // Hilt
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
