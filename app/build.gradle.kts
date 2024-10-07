@@ -38,7 +38,7 @@ android {
         jvmTarget = "1.8"
     }
     buildFeatures {
-        viewBinding = true
+        dataBinding = true
         buildConfig = true
     }
 }
@@ -58,6 +58,7 @@ dependencies {
     implementation(project(":data"))
     implementation(project(":domain"))
     implementation(project(":remote"))
+    implementation(project(":presentation"))
 
 
     implementation(libs.timber)
