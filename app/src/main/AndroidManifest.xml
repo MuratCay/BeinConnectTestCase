@@ -16,6 +16,9 @@
         android:theme="@style/Theme.BeinConnectTestCase"
         tools:targetApi="31">
         <activity
+            android:name=".feature.player.PlayerActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.BeinConnectTestCase">

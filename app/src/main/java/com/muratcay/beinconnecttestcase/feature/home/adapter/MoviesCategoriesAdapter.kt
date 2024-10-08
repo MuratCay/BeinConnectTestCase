@@ -1,4 +1,4 @@
-package com.muratcay.beinconnecttestcase.feature.adapter
+package com.muratcay.beinconnecttestcase.feature.home.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

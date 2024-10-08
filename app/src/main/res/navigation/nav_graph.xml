@@ -6,6 +6,6 @@
     app:startDestination="@id/homeFragment">
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.muratcay.beinconnecttestcase.feature.HomeFragment"
+        android:name="com.muratcay.beinconnecttestcase.feature.home.HomeFragment"
         android:label="HomeFragment" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.muratcay.beinconnecttestcase.feature
+package com.muratcay.beinconnecttestcase.feature.home
 
 import com.muratcay.beinconnecttestcase.R
 import com.muratcay.beinconnecttestcase.databinding.FragmentHomeBinding

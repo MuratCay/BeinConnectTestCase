@@ -29,6 +29,7 @@ kotlinxSerialization = "1.5.1"
 pluginSerialization = "1.8.21"
 hilt = "2.48"
 hiltPlugin = "2.48"
+activity = "1.9.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -58,6 +59,8 @@ hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref
 hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
 circleindicator = { module = "me.relex:circleindicator", version = "2.1.6" }
 swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version = "1.1.0" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+exoplayer = { group = "com.google.android.exoplayer", name = "exoplayer", version = "2.15.0" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
