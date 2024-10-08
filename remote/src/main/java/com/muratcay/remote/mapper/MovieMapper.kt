@@ -19,7 +19,8 @@ class MovieMapper @Inject constructor() : Mapper<Movie, com.muratcay.domain.mode
             title = type.title,
             video = type.video,
             voteAverage = type.voteAverage,
-            voteCount = type.voteCount
+            voteCount = type.voteCount,
+            image = type.image
         )
     }
 }

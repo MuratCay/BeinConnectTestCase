@@ -41,7 +41,7 @@ class HomeViewModel @Inject constructor(
                 ).collect { result ->
                     when (result) {
                         is com.muratcay.domain.Result.Success -> {
-                            setState(HomeState.Success(result.data?.movies))
+                            setState(HomeState.BaseMoviesLoaded(result.data?.movies))
                             println(result.data?.movies)
                         }
 
