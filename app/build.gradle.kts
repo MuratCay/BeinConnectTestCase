@@ -60,6 +60,8 @@ dependencies {
     implementation(project(":remote"))
     implementation(project(":presentation"))
 
+    implementation(libs.circleindicator)
+    implementation(libs.swiperefreshlayout)
 
     implementation(libs.timber)
     implementation(libs.glide)

@@ -6,7 +6,6 @@ import com.muratcay.domain.usecase.GetMoviesUseCase
 import com.muratcay.presentation.base.BaseViewModel
 import com.muratcay.presentation.models.categories
 import com.muratcay.presentation.utils.Constants.API_KEY
-import com.muratcay.presentation.utils.Constants.BASE_URL
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
